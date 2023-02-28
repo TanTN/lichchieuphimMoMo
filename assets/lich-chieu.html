@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fonts/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/lich-chieu-style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Lịch chiếu phim trên MoMo</title>
+</head>
+<body>
+    <div id="main" class="active-main">
+        <div id="header">
+            <div class="header-nav">
+                <div class="header-mobile-tablet">
+                    <div class="content-left">
+                        <a href=""><img src="./img/MoMo_Logo.png" alt="logo-momo" class="logo-momo"></a>
+                        <img src="https://static.mservice.io/fileuploads/svg/momo-file-221117104714.svg" alt="" class="nav-img-icon">
+                            <a href=""><span class="content-left-color">Đặt vé xem phim</span>
+                        </a>
+                    </div>
+                    <div class="open-app">
+                        <i class="icon-open ti-align-justify"></i>
+                        <i class="icon-close ti-close"></i>
+                    </div>
+                    
+                </div>
+                <div class="header-nav-container grid wide">
+                    <div class="content-left hide-one-mobile-tablet">
+                        <a href=""><img src="./img/MoMo_Logo.png" alt="logo-momo" class="logo-momo"></a>
+                        <img src="https://static.mservice.io/fileuploads/svg/momo-file-221117104714.svg" alt="" class="nav-img-icon">
+                            <a href=""><span class="content-left-color">Đặt vé xem phim</span>
+                        </a>
+                    </div>
+                    <div class="lopphu"></div>
+                    <div class="content-right hide-one-mobile-tablet">
+                        <div class="content-right-list-item">
+                            <a class="rap-chieu">
+                                <div class="content-right-item">
+                                    Rạp chiếu
+                                    <div class=" content-right-down-icon"><i class="ti-angle-down"></i></div>
+                                    
+                                </div>
+                            </a>
+                            
+                            <div class="content-right-list-rap">
+                                <ul class="container-right-list-rap">
+                                    <li class="m-6 c-6 l-12"><a href="https://momo.vn/cinema/rap/cgv" class="content-right-list-item-rap">CGV</a></li>
+                                    <li class="m-6 c-6 l-12"><a href="https://momo.vn/cinema/rap/lotte-cinema" class="content-right-list-item-rap">Lotte Cinema</a></li>
+                                    <li class="m-6 c-6 l-12"><a href="https://momo.vn/cinema/rap/bhd-star" class="content-right-list-item-rap">Bhd Star</a></li>
+                                    <li class="m-6 c-6 l-12"><a href="https://momo.vn/cinema/rap/bhd-star" class="content-right-list-item-rap">Galaxy Cinema</a></li>
+                                    <li class="m-6 c-6 l-12"><a href="https://momo.vn/cinema/rap/beta-cinemas" class="content-right-list-item-rap">Beta Cinemas</a></li>
+                                    <li class="m-6 c-6 l-12"><a href="https://momo.vn/cinema/rap/cinestar" class="content-right-list-item-rap">Beta Cinemas</a></li>
+                                    <li class="m-6 c-6 l-12"><a href="https://momo.vn/cinema/rap/dcine" class="content-right-list-item-rap">DCINE</a></li>
+                                    <li class="m-6 c-6 l-12"><a href="https://momo.vn/cinema/rap/mega-gs" class="content-right-list-item-rap">Mega GS</a></li>
+                                    <li class="m-6 c-6 l-12"><a href="https://momo.vn/cinema/rap/cinemax" class="content-right-list-item-rap">Cinemax</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="content-right-list-item  content-right-item-color">
+                                <div class="content-right-item">
+                                    Lịch chiếu
+                                    <div class=" content-right-down-icon"><i class="ti-angle-down"></i></div>
+
+                                </div>
+                            <div class="content-right-list-rap ">
+                                <ul class="container-right-list-rap">
+                                    <li class="m-6 c-6 l-12"><a href="#lichchieuphim" class="content-right-list-item-rap">Phim đang chiếu</a></li>
+                                    <li class="m-6 c-6 l-12"><a href="#phimsapchieu" class="content-right-list-item-rap">Phim sắp chiếu</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content-right-list-item">
+                            <a class="content-right-item content-right-item-href">
+                                Blog điện ảnh
+                                <div class=" content-right-down-icon"><i class="ti-angle-down"></i></div>
+                            </a>
+                            <div class="content-right-list-rap ">
+                                <ul class="container-right-list-rap">
+                                    <li class="c-6 m-6 l-12"><a href="https://momo.vn/cinema/blog-dien-anh/phim-chieu-rap" class="content-right-list-item-rap">Phim chiếu rạp</a></li>
+                                    <li class="c-6 m-6 l-12"><a href="https://momo.vn/cinema/blog-dien-anh/phim-chieu-rap" class="content-right-list-item-rap">Review phim</a></li>
+                                    <li class="c-6 m-6 l-12"><a href="https://momo.vn/cinema/blog-dien-anh/phim-chieu-rap" class="content-right-list-item-rap">Top phim</a></li>
+                                    <li class="c-6 m-6 l-12"><a href="https://momo.vn/cinema/blog-dien-anh/phim-chieu-rap" class="content-right-list-item-rap">Phim Netflix</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content-right-list-item">
+                            <a href="https://momo.vn/cinema/khuyen-mai" class="content-right-item">
+                                Khuyến mãi
+                            </a>
+                        </div>
+                        <div class="content-right-list-item">
+                            <a href="https://momo.vn/cinema/phim-chieu" class="content-right-item">
+                                Tìm phim
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                                                                        <!-- main -->
+
+        <div class="open-main">                                                            
+            <div id="slider">
+                <div class="header-sub grid wide">
+                    <a class="ti-home header-sub-home-icon" href=""></a>
+                    <i class="ti-angle-right header-sub-angle-right-icon"></i>
+                    <a href="">Cinema</a>
+                    <i class="ti-angle-right header-sub-angle-right-icon"></i>
+                    Lịch chiếu
+                </div>
+                <div class="slider-nav">
+                    <div class="grid wide">
+                        <div class="row slider-nav-list">
+                            <div class="col l-6 m-6 c-o-1 c-10">
+                                <h2 class="slider-nav-heading">Lịch chiếu phim trên MoMo</h2>
+                                <ul>
+                                    <li class="slider-heading-item"><i class="ti-check heading-item-icon-check"></i><span>Lịch chiếu luôn cập nhật sớm nhất</span></li>
+                                    <li class="slider-heading-item"><i class="ti-check heading-item-icon-check"></i><span>Suất chiếu đầy đủ các rạp</span></li>
+                                    <li class="slider-heading-item"><i class="ti-check heading-item-icon-check"></i><span>Đặt lịch chiếu mua vé siêu nhanh</span></li>
+                                    <li class="slider-heading-item"><i class="ti-check heading-item-icon-check"></i><span>Đặt vé lịch chiếu phim yêu thích mọi nơi</span></li>
+                                </ul>
+                            </div>
+                            <div class="col l-6 m-6">
+                                <img src="https://static.mservice.io/img/momo-upload-api-210820192317-637650841971256881.jpg" alt="" class="slider-nav-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="lichchieuphim">
+                
+                <!-- Tim rap chieu phim -->
+    
+                <div class="grid wide">
+                    <h2>Lịch chiếu phim</h2>
+                    <div class="content-lichchieuphim">
+                        <div class="content-lichchieuphim-first">
+                            <div class="vitri">
+                                <span class="vitri-item">Vị trí</span>
+                                <div class="vitri-item-color"><i class="ti-location-pin vitri-icon-color"></i>TP.Thái Bình<i class="ti-angle-down vitri-icon-color-1"></i></div>
+                                <div class="vitri-item-no-color"><i class="ti-target vitri-icon"></i>Gần bạn</div>
+                            </div>
+                            <div class="allrap">
+                                
+                                    <!-- render ra logo rap -->
+
+                            </div>
+                        </div>
+                        <div class="content-lichchieuphim-last">
+                            <div class="m-5 l-4 content-lichchieuphim-last-left-x hide-one-mobile">
+                                <div class="content-lichchieuphim-last-left">
+                                    <div>
+                                        <div class="content-lichchieuphim-last-search">
+                                            <input type="text" placeholder="Tìm theo tên rạp..." class="content-lichchieuphim-last-input">
+                                            <i class="ti-search content-lichchieuphim-last-icon-search"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="content-lichchieuphim-last-left-list">
+                                            <!-- render list logo rap -->
+                                    </div>
+                                    <button class="btn btn-addNewRap">
+                                        <i class="icon-default ti-arrow-down"></i>
+                                        <span>Xem thêm</span>
+                                    </button>
+                                </div>
+
+                                </div>
+                                
+                            <div class="m-7 l-8 content-lichchieuphim-last-right">
+                                <div class="content-lichchieuphim-last-right-rap">
+                                    <!-- Render rap -->
+                                </div>
+                                <div class="content-lichchieuphim-last-right-date">
+                                    <div class="content-lichchieuphim-last-right-date-child">
+                                        
+                                        <!-- reander date -->
+                                    </div>
+                                </div>
+                                <div class="movie-on-rap-container">
+                                    <!-- render movie -->
+                                </div>
+                                
+                                
+                            </div>
+                            
+                                
+                        </div>
+                        
+                    </div>   
+            </div>
+                </div>
+                
+        
+                <!-- phim sap chieu -->
+    
+            <div id="phimsapchieu" class="container-phimsapchieu">
+                <div class="grid wide">
+                    <h2>Phim sắp chiếu</h2>
+                    <div class="phimsapchieu-container-list">
+                        <div class="phimsapchieu-list">
+                            <i class="movie-prev ti-angle-left hide-one-mobile"></i>
+
+                            <div class="phimsapchieu-list-movie">
+
+                                                        <!-- render phim sap chieu -->
+
+                            </div>
+
+                            <i class="movie-next ti-angle-right hide-one-mobile"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!-- Blog phim anh -->
+    
+            <div class="container-blogphimanh">
+                <div class="grid wide">
+                    <h2>Blog phim ảnh</h2>
+                    <p class="container-blogphimanh-sub-heading">Tổng hợp và Review các bộ phim hot, bom tấn, phim chiếu rạp hay mỗi ngày</p>
+                    <div class="container-blogphimanh-luotxem">
+                        <p class="luotxem-view active-view">Mới nhất</p>
+                        <p class="luotxem-view">Xem nhiều nhất</p>
+                    </div>
+                    <div class="row blog-container active-view">
+    
+                                                                                <!-- rende blog phim -->
+    
+                    </div>
+                    <div class="row blog-container-last blog-container ">
+    
+                                                                                <!-- rende blog phim -->
+    
+                    </div>
+                    <div class="btn-addBlog-container">
+                        <button class="btn btn-addBlog">
+                            <i class="icon-default ti-arrow-down"></i>
+                            <i class="icon-reload ti-reload"></i>
+                            <span>Xem thêm</span>    
+                        </button>
+                    </div>
+    
+                </div>
+            </div>
+    
+    
+            <!-- Tin tuc khuyen mai -->
+            <div class="container-tintuc__khuyenmai">
+                <div class="grid wide">
+                    <h2>Tin tức - Khuyến mại</h2>
+                    <div class="row tintuc-container">  
+    
+                                                                         <!-- render news -->
+    
+                    </div>
+                </div>
+                <div class="btn-addNews-container">
+                    <button class="btn btn-addNews">
+                        <i class="icon-default ti-arrow-down"></i>
+                        <i class="icon-reload ti-reload"></i>
+                        <span>Xem thêm</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- cau hoi momo -->
+    
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 c-12 heading-cauhoi">
+                        <h2>Bạn hỏi, Ví MoMo trả lời</h2>
+                        <p class="heading-cauhoi-sub">Không tìm thấy câu hỏi của bạn. Vui lòng xem thêm <a href="https://momo.vn/hoi-dap/thanh-toan-va-mua-sam-ctgr4/ve-xem-phim">tại đây.</a></p>
+                    </div>
+                    <div class="col l-8 c-12">
+                        <ul class="cauhoi-list-item">
+                            
+                                                            <!-- render question -->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="footer">
+                <div class="footer-container">
+                    <div class="grid wide">
+                    
+                        <div class="row">
+                            <div class="col l-2 m-4 c-4">
+                                <div class="footer-list">
+                                    <h4>Lịch chiếu phim</h4>
+                                    <ul>
+                                        <li class="footer-item">
+                                            <a href="http://127.0.0.1:5500/lich%20chieu%20phim%20momo/lich%20chieu%20phim%20momo/assets/lich-chieu.html#lichchieuphim">Phim đang chiếu</a>
+                                            <a href="http://127.0.0.1:5500/lich%20chieu%20phim%20momo/lich%20chieu%20phim%20momo/assets/lich-chieu.html#phimsapchieu">Phim sắp chiếu</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-4 c-4">
+                                <div class="footer-list">
+                                    <h4>Blog điện ảnh</h4>
+                                    <ul>
+                                        <li class="footer-item">
+                                            <a href="https://momo.vn/cinema/blog-dien-anh/phim-chieu-rap">Phim chiếu rạp</a>
+                                            <a href="https://momo.vn/cinema/blog-dien-anh/phim-chieu-rap">Review phim</a>
+                                            <a href="https://momo.vn/cinema/blog-dien-anh/phim-chieu-rap">Top phim</a>
+                                            <a href="https://momo.vn/cinema/blog-dien-anh/phim-chieu-rap">Phim Netflix</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-4 c-4">
+                                <div class="footer-list">
+                                    <h4>Rạp chiếu phim</h4>
+                                    <ul>
+                                        <li class="footer-item">
+                                            <a href="https://momo.vn/cinema/rap/cgv"">CGV</a>
+                                            <a href="https://momo.vn/cinema/rap/lotte-cinema">Lotte Cinema</a>
+                                            <a href="https://momo.vn/cinema/rap/bhd-star">BHD Star</a>
+                                            <a href="https://momo.vn/cinema/rap/bhd-star">Galaxy Cinema</a>
+                                            <a href="https://momo.vn/cinema/rap/beta-cinemas">Beta Cinema</a>
+                                            <a href="https://momo.vn/cinema/rap/cinestar"">Cinestar</a>
+                                            <a href="https://momo.vn/cinema/rap/dcine"">DCINE</a>
+                                            <a href="https://momo.vn/cinema/rap/mega-gs">MegaGS</a>
+                                            <a href="https://momo.vn/cinema/rap/cinemax"">Cinemax</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col l-4 l-o-2">
+                                <div class="footer-list">
+                                    <h4>CHĂM SÓC KHÁCH HÀNG</h4>
+                                    <ul>
+                                        <li class="footer-item-color footer-item ">
+                                            <p>Địa chỉ: Tầng M, Tòa nhà Victory Tower, Số 12 Tân Trào, Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh</p>
+                                            <p>Hotline:<a href="tel:+1900545431"> 1900 5454 41</a></p>
+                                            <p>Email:<a href="meilto:hotro@momo.vn"> hotro@momo.vn</a></p>
+                                            <p>Tổng đài gọi ra:<a href="tel:+0287306555"> 028.7306.5555</a> - <a href="tel:+02899995555"> 028.9999.5555</a></p>
+                                            <a href="https://momo.vn/huong-dan/huong-dan-gui-yeu-cau-ho-tro-bang-tinh-nang-tro-giup"><img src="./img/Đặt mua vé xem phim online ngay trên MoMo - Cốc Cốc 29_11_2022 20_58_01.png" alt="" class="footer-item-img-vimomo"></a>
+                                            <div class="footer-item-ch-app">
+                                                <a href="https://apps.apple.com/vn/app/id918751511?amp%3Butm_campaign=momo-1dong&amp%3Butm_medium=download&utm_source=website-momo"><img src="https://static.mservice.io/img/momo-upload-api-210724113855-637627235353131497.jpg" alt="" class="footer-item-ch-app-img"></a>
+                                                <a href="https://play.google.com/store/apps/details?id=com.mservice.momotransfer&utm_source=website-momo&utm_medium=download&utm_campaign=momo-1dong&pli=1"><img src="https://static.mservice.io/img/momo-upload-api-210724113959-637627235994410679.jpg" alt="" class="footer-item-ch-app-img"></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-nhanhang">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-6">
+                                <div class="footer-nhanhang-list">
+                                    <img src="./assets/img/MoMo_Logo.png" alt="" class="footer-nhanhang-logomomo">
+                                    <div class="footer-nhanhang-heading">
+                                        <p>Công Ty Cổ Phần Dịch Vụ Di Động Trực Tuyến (viết tắt M_Service)</p>
+                                        <p>Lầu 6, Toà nhà Phú Mỹ Hưng, số 8 Hoàng Văn Thái, khu phố 1, Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3 footer-nhanhang-item-mangxahoi">
+                                <div class="footer-nhanhang-item">
+                                    <a href="https://www.facebook.com/vimomo"><img src="https://static.mservice.io/styles/desktop/images/social/facebook.svg" alt="" class="footer-nhanhang-item-img"></a>
+                                    <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHEksK0vKeqmQAAAYaSHCsIKsiJ0nxhD1fEBZb6kvh8FiBLTUusprMo562gUIE_IaALn__LFAKCionIyfhsVMgb-D6c3bd5KIwae8OFW6uiBpRRH8QiOUSCuZJVFQOjJEpjPIo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fmomo-mservice%2F"><img src="https://static.mservice.io/styles/desktop/images/social/linkedin.svg" alt="" class="footer-nhanhang-item-img"></a>
+                                    <a href="https://www.youtube.com/channel/UCKHHW-qL2JoZqcSNm1jPlqw"><img src="https://static.mservice.io/styles/desktop/images/social/youtube.svg" alt="" class="footer-nhanhang-item-img"></a>          
+                                </div>
+                                <p>©Copyright M_Service 2022</p>
+                            </div>
+                            <div class="col l-3 footer-nhanhang-chungnhan">
+                                <p>Chứng nhận bởi</p>
+                                <a href="http://online.gov.vn/Home/AppDetails/163?AspxAutoDetectCookieSupport=1"><img src="https://static.mservice.io/blogscontents/momo-upload-api-210629153623-637605777831780706.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <script src="./lich-chieu.js"></script>
+</body>
+</html>

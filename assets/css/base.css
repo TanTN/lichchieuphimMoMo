@@ -1,0 +1,32 @@
+:root {
+    --pinkmomo: #a50064;
+    --pink: #d82f8b;
+    --pinklight: #f9b5c3;
+    --black:#000;
+    --white:#fff;
+    --text-color:rgb(103, 103, 103);
+    --pinkpatel:rgb(255, 236, 247);
+    --hover-color:rgb(245, 245, 245);
+}
+#main {
+    overflow: hidden;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    color: var(--pink);
+    font-size: 1.6rem;
+    padding: 7px 18px;
+    border: 1px solid var(--pink);
+    background-color: unset;
+    border-radius: 18px;
+    margin: 23px auto 57px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--pinkpatel);
+}
+.btn span {
+    padding-left: 8px;
+}
