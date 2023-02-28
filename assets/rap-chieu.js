@@ -1008,7 +1008,7 @@ const openApp = {
             
             this.eventHandler()
         }
-        prevBtnMovie.onclick = () => {
+        prevBtnMovie.onclick = () =>  {
             _this.indexMovie--
 
             _this.postionXMovie = _this.postionXMovie + listMovesWidth
