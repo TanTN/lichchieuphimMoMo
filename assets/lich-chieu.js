@@ -916,7 +916,7 @@ const openApp = {
 
         if (window.innerWidth > 1024) {
             $('.content-right-item-href').href = 'https://momo.vn/cinema/blog-dien-anh'
-            $('.rap-chieu').href = 'http://127.0.0.1:5500/rap-chieu.html'
+            $('.rap-chieu').href = 'https://tantn.github.io/lichchieuphimMoMo/rap-chieu.html'
         }
         
         // Add new rap
