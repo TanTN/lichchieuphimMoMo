@@ -408,7 +408,7 @@ const openApp = {
         {
             img: 'https://static.mservice.io/blogscontents/s770x370/momo-upload-api-221010113447-638009984874034688.jpg',
             content: 'One Piece: RED - Siêu phẩm anime không thể bỏ lỡ năm 2022',
-            view:'lượt xem6,9k lượt xem',
+            view:'9k lượt xem',
         },
         {
             img: 'https://static.mservice.io/blogscontents/s770x370/momo-upload-api-220131203141-637792579015243080.jpg',
